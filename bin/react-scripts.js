@@ -7,6 +7,7 @@ switch (script) {
 case 'build':
 case 'eject':
 case 'start':
+case 'watch':
 case 'test':
   var result = spawn.sync(
     'node',
